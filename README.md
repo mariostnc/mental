@@ -1,70 +1,151 @@
-# Getting Started with Create React App
+# MentalHealth.ro - Website pentru Sănătate Mentală
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Un website profesional dedicat sănătății mentale, oferind informații, resurse și suport pentru persoanele care se confruntă cu probleme de sănătate mentală.
 
-## Available Scripts
+## 🎯 Despre Proiect
 
-In the project directory, you can run:
+MentalHealth.ro este o platformă educațională care oferă:
+- **Informații științifice** despre tulburările de sănătate mentală
+- **Linii de ajutor** și contacte pentru suport imediat
+- **FAQ** cu răspunsuri la întrebări frecvente
+- **Resurse educaționale** pentru pacienți și familii
+
+## 🚀 Caracteristici
+
+### Secțiuni Principale
+- **Acasă**: Pagina principală cu introducere și caracteristici
+- **Tulburări**: Informații detaliate despre tulburări mentale comune
+- **Linii de Ajutor**: Contacte pentru suport și urgențe
+- **FAQ**: Întrebări și răspunsuri frecvente
+
+### Design
+- **Light Theme**: Design curat și profesional
+- **Responsive**: Optimizat pentru toate dispozitivele
+- **Medical Style**: Aspect profesional medical
+- **Accesibil**: Design prietenos pentru utilizatori
+
+## 🛠️ Tehnologii Utilizate
+
+- **React.js** - Framework pentru interfața utilizator
+- **CSS3** - Stilizare și design responsive
+- **HTML5** - Structura semantică
+- **JavaScript ES6+** - Funcționalitate interactivă
+
+## 📦 Instalare și Rulare
+
+### Cerințe Preliminare
+- Node.js (versiunea 14 sau mai nouă)
+- npm sau yarn
+
+### Pași de Instalare
+
+1. **Clonează repository-ul**
+   ```bash
+   git clone [url-repository]
+   cd health
+   ```
+
+2. **Instalează dependențele**
+   ```bash
+   npm install
+   ```
+
+3. **Rulează aplicația în modul development**
+   ```bash
+   npm start
+   ```
+
+4. **Deschide browser-ul**
+   Navighează la [http://localhost:3000](http://localhost:3000)
+
+## 📋 Scripturi Disponibile
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Rulează aplicația în modul development.
+Deschide [http://localhost:3000](http://localhost:3000) pentru a o vizualiza în browser.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Lansează test runner-ul în modul interactiv.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Construiește aplicația pentru producție în folderul `build`.
 
 ### `npm run eject`
+**Notă: această operațiune este ireversibilă!**
+Ejectează configurația pentru control complet.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎨 Structura Proiectului
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+health/
+├── public/
+│   ├── index.html          # Pagina HTML principală
+│   ├── manifest.json       # Manifest pentru PWA
+│   └── favicon.ico         # Iconița site-ului
+├── src/
+│   ├── App.js              # Componenta principală React
+│   ├── App.css             # Stiluri pentru aplicație
+│   └── index.js            # Punctul de intrare
+├── package.json            # Dependențe și scripturi
+└── README.md               # Documentația proiectului
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📱 Funcționalități
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Navigare
+- Meniu de navigare responsive
+- Tranziții smooth între secțiuni
+- Design adaptabil pentru mobile
 
-## Learn More
+### Conținut
+- **5 Tulburări Mentale** cu informații detaliate
+- **4 Linii de Ajutor** cu contacte reale
+- **6 Întrebări FAQ** cu răspunsuri complete
+- **Secțiune de Urgențe** pentru situații critice
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Design
+- Paletă de culori medicală profesională
+- Typography curat și lizibil
+- Card-uri interactive cu hover effects
+- Layout grid responsive
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔧 Personalizare
 
-### Code Splitting
+### Culori
+Culorile principale utilizate:
+- **Primary Blue**: #1565c0
+- **Secondary Blue**: #2196f3
+- **Green**: #4caf50
+- **Orange**: #ff9800
+- **Background**: #f8f9fa
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Fonturi
+- **Primary**: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+- **Weights**: 400, 500, 600, 700
 
-### Analyzing the Bundle Size
+## 📞 Informații de Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Pentru suport tehnic sau întrebări despre proiect:
+- **Email**: info@mentalhealth.ro
+- **Telefon**: 021 123 45 67
 
-### Making a Progressive Web App
+## ⚠️ Disclaimer Medical
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Acest website oferă informații educaționale și nu înlocuiește consultul medical profesional. Pentru probleme urgente de sănătate mentală, contactează serviciile de urgență (112) sau un specialist în sănătate mentală.
 
-### Advanced Configuration
+## 📄 Licență
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Acest proiect este creat pentru scopuri educaționale și de conștientizare a sănătății mentale.
 
-### Deployment
+## 🤝 Contribuții
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contribuțiile sunt binevenite! Pentru a contribui:
+1. Fork repository-ul
+2. Creează un branch pentru feature-ul tău
+3. Commit schimbările
+4. Push la branch
+5. Deschide un Pull Request
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**MentalHealth.ro** - Sănătate Mentală pentru Toți
